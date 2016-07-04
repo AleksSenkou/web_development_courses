@@ -74,14 +74,14 @@ pre {
     color: blue;
 }
 
-.nav ul{
+.navigation ul{
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
 }
 
-.nav li {
+.navigation li {
     display: inline-block;
     float: left;
     padding: 15px;
@@ -93,7 +93,7 @@ pre {
     text-align: center;
 }
 
-.nav a {
+.navigation a {
     font-family: AleksandraC;
     text-decoration: none;
     color: white;
@@ -101,7 +101,7 @@ pre {
     transform: scale(1.2);
 }
 
-.nav a:hover {
+.navigation a:hover {
     opacity: .7;
 }
 
