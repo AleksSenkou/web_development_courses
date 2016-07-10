@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>&#8224; trip.com</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contacts.css">
+  </head>
+  <body>
+    <div class="navigation">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li class="search">
+                <input type="text" name="search" placeholder="Search...">
+            </li>
+        </ul>
+    </div>
+    <div class="forms">
+      <form action="home.html" method="POST" autocomplete="on" class="forms">
+        <div class="one-block">
+          <label for="name">What's your name?</label>
+          <input type="text" name="name" spellcheck="true"
+          autocomplete="on" placeholder="Johnyboy">
+        </div>
+        <div class="one-block">
+          <label for="lastname">And lastname?</label>
+          <input type="text" name="lastname" spellcheck="true" autocomplete="on" placeholder="Rigov">
+        </div>
+        <div class="one-block">
+          <label for="email">Insert your email: </label>
+          <input type="email" name="email" autocomplete="on" placeholder="hovan-gangsta@versus.ru">
+        </div>
+        <div class="one-block">
+          <label for="file">Scan of your passport: </label>
+          <input type="file" name="file" multiple>
+        </div>
+        <div class="one-block">
+          <label for="range">How much dollars you want to give me? (200-1000) </label>
+          <input type="range" name="range" min="200" max="1000" step="100">
+        </div>
+        <div class="one-block">
+          <label for="comment">Two words about me: </label>
+          <textarea name="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div class="one-block agree">
+          <iframe src="license.txt" width="50%"></iframe>
+          <label for="agree">
+            I agree, that you can fuck my money:
+            <input type="radio" name="agree">
+          </label>
+        </div>
+        <div class="one-block submit-button">
+          <button type="submit"><b>Submit</b></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
